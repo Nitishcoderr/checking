@@ -1,0 +1,227 @@
+@media only screen and (max-width: 1120px) {
+
+    .nav-mobileno a span {
+        font-size: 1rem;
+    }
+
+    .u-section {
+        grid-template-columns: 1fr;
+    }
+    .section-2 .card{
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    section-2 .section-2-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-3-card {
+        justify-content: center;
+  }
+  .secton-3-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-5 .section-5-card {
+    grid-template-columns: 1fr;
+}
+}
+
+@media only screen and (max-width: 790px) {
+    .u-section .left-section{
+        text-align: center;
+    }
+    .section-3-card{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ----------------------------------- */
+@media only screen and (max-width: 700px) {
+
+    .right-section form h2{
+        font-size: 1.5rem;
+    }
+    .section-2 .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-2 .section-2-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .section-2 .section-2-header h2 {
+        font-size: 2rem;
+        margin: 20px auto 0;
+    }
+    .u-section .left-section h3{
+        font-size: 2rem;
+    }
+    
+    .section-4-item{
+        padding: 1rem;
+    }
+    .banner-card{
+        flex-direction: column;
+    }
+    .banner-header h2{
+        font-size: 1.5rem;
+    }
+}
+/* ------------------------------------ */
+@media only screen and (max-width: 650px) {
+    .section-3-card{
+        grid-template-columns: 1fr;
+    }
+    .section-5 .section-5-card-item{
+        flex-direction: column;
+    }
+    .section-5-header h1 {
+        font-size: 2.5rem;
+    }
+    }
+/* ------------------------ */
+@media only screen and (max-width: 450px){
+    .u-section{
+        padding: 1rem 1rem;
+    }
+    .u-section .left-section{
+        text-align: center;
+    }
+    .secton-3-header h2 {
+        font-size: 1rem;
+    }
+    .section-4-item{
+        line-height: 2.5rem;
+    }
+.u-section .left-section h2{
+    font-size: 2rem;
+}
+.u-section .left-section h3{
+    font-size: 2rem;
+}
+.u-section .left-section p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.section-3-card{
+    grid-template-columns: 1fr;
+}
+
+.secton-3-header h2{
+    font-size: 1.5rem;
+}
+
+.section-2 .section-2-header{
+    text-align: center;
+}
+
+
+.secton-3-header h2{
+    font-size: 2rem;
+    align-items: center;
+}
+
+
+.section-4-item{
+    text-align: center;
+}
+
+.banner-header h2{
+    font-size: 1rem;
+}
+.banner-content p {
+    font-size: 10px;
+}
+
+
+
+.section-5 {
+    padding: 1rem 1rem;
+}
+.section-5 .section-5-card-item {
+    flex-direction: column;
+}
+.section-5 .section-5-card-item p{
+    font-size: 14px;
+}
+.section-5 .section-5-card-item{
+    padding: 0.2rem 0.5rem;
+}
+.section-5 .section-5-card-item h2{
+    text-align: center;
+}
+
+.section-5-header h1 {
+    margin: 10px auto 0;
+    font-size: 2rem;
+    text-align: center;
+}
+}
+
+/* ----------------- */
+@media only screen and (max-width: 380px){
+    .nav-mobileno a span{
+        font-size: 10px;
+    }
+    .nav-mobileno a i {
+        font-size: 1rem;
+    }
+    .u-section .left-section h2{
+        font-size: 1rem;
+    }
+    .u-section .left-section h3{
+        font-size: 1.5rem;
+    }
+    .section-5 .section-5-card-item p {
+        font-size: 10px;
+    }
+    .section-5 .section-5-card-item h2 {
+        font-size: 8px;
+    }
+    .section-3{
+        padding: 2rem 1rem 0 1rem;
+    }
+    .section-3-card-item{
+        padding: 14px;
+    }
+    .secton-3-header h2 {
+        font-size: 1rem;
+    }
+    .section-3-card-item h2{
+        font-size: 1rem;
+    }
+    .section-3-card-item p{
+        font-size: 14px;
+    }
+    .section-4-item {
+        line-height: 1.5rem;
+    }
+    .section-4-item h2 {
+        font-size: 1rem
+    }
+    footer{
+        padding: 2rem 0;
+    }
+    .footer-content p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px){
+
+    .section-3-card-item{
+        min-width: 250px;
+        min-height: 268px;
+    }
+    .section-3-card-item p {
+        font-size: 10px;
+    }
+}
